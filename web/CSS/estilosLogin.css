@@ -1,0 +1,56 @@
+body
+{
+background:#FF9033;
+}
+
+form{
+    width: 500px;
+    padding: 25px;
+    border-radius: 50px; /* permite etilizar, crear border circulares
+                            reemplazando a los bordes rectos*/
+    margin:auto;
+    background-color: #F7CCA8;/*#d4d5d1*/
+    margin-top: 100px;
+}
+
+form label{
+    width:95px;
+    display: inline-block; /*distribuye a las etiquetas label como bloques para 
+                           ordenar/alinear los inputs*/
+    font-weight:700; /*aplica diferentes valores al resaltar el texto van
+                    desde 100 hasta 900*/
+    margin-left: 3.5rem;
+   
+    
+}
+
+/*
+Vamos a aplicar un mismo bloque de estilos a dos tipos de input
+*/
+
+form input[type="text"], 
+form input[type="password"],
+form input[type="text"]{/*aplica un estilo a más de una etiqueta
+                            permite reutilizar código*/
+   width:260px;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-top:10px;
+    
+ 
+  
+}
+
+form input[type="submit"]{
+    width:80%;
+    margin:0 auto 0 auto;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display:block; /*impide que se coloquen más elementos al costado de la 
+                     presente etiqueta   */
+    background-color:#FF9033;
+}
+
+
